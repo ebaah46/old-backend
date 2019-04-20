@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "root",
+    "password": "[password]",
+    "database": "Fast",
+    "host": "old-backend.herokuapp.com",
+    "port": "3306",
+    "dialect": "mysql",
+    "use_env_variable": "DATABASE_URL"
+  },
+  "test": {
+    "username": "root",
+    "password": "[password]",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "b876ca395d66d4",
+    "password": "7d07aae6",
+    "database": "heroku_e2e2cf19fabb6e3",
+    "host": "us-cdbr-iron-east-03.cleardb.net",
+    "dialect": "mysql",
+    "use_env_variable": "mysql://b876ca395d66d4:7d07aae6@us-cdbr-iron-east-03.cleardb.net/heroku_e2e2cf19fabb6e3?reconnect=true"
+  }
+}
